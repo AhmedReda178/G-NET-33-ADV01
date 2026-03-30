@@ -225,6 +225,26 @@ namespace AssignmentC_Advanced01
             //printer.PrintItem(customer); 
 
             #endregion
+
+            #region Q11
+            //Q11: What is the base class constraint? Write an example.
+
+            //Answer:
+            //The base class constraint in C# is used in generics to specify that the type parameter must inherit from a specific base class.
+            //This allows the generic class or method to access members of the base class safely.
+
+            //used:
+
+            //BaseRepository<Customer> customerRepo = new BaseRepository<Customer>();
+
+            //customerRepo.Add(new Customer { Id = 1, Name = "Ahmed" });
+            //customerRepo.Add(new Customer { Id = 2, Name = "Sara" });
+
+            //foreach (var customer in customerRepo.GetAll())
+            //{
+            //    Console.WriteLine($"Id: {customer.Id}, Name: {customer.Name}");
+            //}
+            #endregion
         }
         #region Swap<T> method
         //public static void Swap<T>(ref T a, ref T b)
