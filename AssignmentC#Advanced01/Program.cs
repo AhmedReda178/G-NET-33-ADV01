@@ -408,6 +408,27 @@ namespace AssignmentC_Advanced01
 
             #endregion
 
+            #region Q20
+            //Q20: Complete Exercise - Create a generic Cache<TKey, TValue>with Add, Get, Remove, Contains, and expiration support. 
+
+            //Answer:
+
+            
+            //Cache<string, string> myCache = new Cache<string, string>(TimeSpan.FromSeconds(5));
+
+            //myCache.Add("name", "Ahmed");
+            //myCache.Add("city", "Cairo");
+
+            //Console.WriteLine($"Name: {myCache.Get("name")}");
+            //Console.WriteLine($"City: {myCache.Get("city")}");
+
+            //System.Threading.Thread.Sleep(6000);
+
+            //Console.WriteLine($"Name after expiration: {myCache.Get("name")}"); 
+
+            //Console.WriteLine($"Contains 'city'? {myCache.Contains("city")}"); 
+            #endregion
+
 
         }
         #region Swap<T> method
