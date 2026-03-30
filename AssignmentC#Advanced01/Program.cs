@@ -152,16 +152,40 @@ namespace AssignmentC_Advanced01
 
             //use example:
 
-           
+
             //Calculator<int> intCalc = new Calculator<int>();
             //Console.WriteLine("Sum of 5 + 10 = " + intCalc.Add(5, 10));
 
-           
+
             //Calculator<double> doubleCalc = new Calculator<double>();
             //Console.WriteLine("Sum of 2.5 + 3.5 = " + doubleCalc.Add(2.5, 3.5));
 
+
+
+            #endregion
+
+            #region Q08
+            //Q8: What is the 'class' constraint? Write an example.
+            //Answer:
+            //The class constraint in C# is used in generics to specify that the type parameter must be a reference type (like class objects or string).
+            //This ensures that the generic type cannot be a value type (like int, double, or struct).
+
+            //In short: "class" = reference type only.
+
+
+            //used :
+
             
-             
+            //Repository<Customer> customerRepo = new Repository<Customer>();
+
+            //customerRepo.Add(new Customer { Id = 1, Name = "Ahmed" });
+            //customerRepo.Add(new Customer { Id = 2, Name = "Sara" });
+
+            //Console.WriteLine("All Customers:");
+            //foreach (var customer in customerRepo.GetAll())
+            //{
+            //    Console.WriteLine($"Id: {customer.Id}, Name: {customer.Name}");
+            //}
             #endregion
         }
         #region Swap<T> method
@@ -171,6 +195,10 @@ namespace AssignmentC_Advanced01
         //    a = b;
         //    b = temp;
         //} 
+        #endregion
+
+        #region MyRegion
+
         #endregion
     }
 }
