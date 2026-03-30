@@ -35,6 +35,19 @@ namespace AssignmentC_Advanced01
 
 
             #endregion
+
+            #region Q02
+            //Q2: Write a generic class Container<T> with Add and Get methods.
+
+            //Used Example:
+            //Container<int> c1 = new Container<int>();
+            //c1.Add(100);
+            //Console.WriteLine(c1.Get());
+
+            //Container<string> c2 = new Container<string>();
+            //c2.Add("Ahmed Reda");
+            //Console.WriteLine(c2.Get());
+            #endregion
         }
     }
 }
