@@ -175,7 +175,7 @@ namespace AssignmentC_Advanced01
 
             //used :
 
-            
+
             //Repository<Customer> customerRepo = new Repository<Customer>();
 
             //customerRepo.Add(new Customer { Id = 1, Name = "Ahmed" });
@@ -186,6 +186,27 @@ namespace AssignmentC_Advanced01
             //{
             //    Console.WriteLine($"Id: {customer.Id}, Name: {customer.Name}");
             //}
+            #endregion
+
+            #region Q09
+            //Q9: What is the 'new()' constraint? Write an example.
+            //Answer:
+
+            //The new() constraint in C# is used in generics to specify that the type parameter must have a public parameterless constructor.
+            //This allows you to create instances of the type using new T() inside the generic class or method.
+
+            //In short: "new()" = type must have a parameterless constructor.
+
+            //used:
+            
+            //Factory<Customer> customerFactory = new Factory<Customer>();
+            //Customer newCustomer = customerFactory.CreateInstance();
+
+            
+            //newCustomer.Id = 1;
+            //newCustomer.Name = "Ahmed";
+
+            //Console.WriteLine($"Customer: Id={newCustomer.Id}, Name={newCustomer.Name}");
             #endregion
         }
         #region Swap<T> method
