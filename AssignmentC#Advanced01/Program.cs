@@ -383,6 +383,31 @@ namespace AssignmentC_Advanced01
 
             #endregion
 
+            #region Q19
+            // Q19: How can you inherit from a generic class?
+
+            //Answer:
+
+            /*
+             In C#, you can inherit from a generic class just like any normal class.
+                When inheriting, you can:
+                Specify the type parameter directly.
+                Keep the class generic and pass the type parameter to the base class.
+
+                Explanation:
+
+                Specify type parameter:
+                You create a derived class and fix the type parameter of the generic base class.
+                Example: class IntList : GenericList<int> → IntList now inherits a GenericList of int.
+                Keep it generic:
+                You can define a generic derived class and pass its type parameter to the base.
+                Example: class MyList<T> : GenericList<T> → MyList is still generic and works for any type T.
+
+
+             */
+
+            #endregion
+
 
         }
         #region Swap<T> method
