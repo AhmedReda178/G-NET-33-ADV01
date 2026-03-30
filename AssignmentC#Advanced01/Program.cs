@@ -324,6 +324,22 @@ namespace AssignmentC_Advanced01
            */
             #endregion
 
+            #region Q16
+            //Q16: What is contravariance? Explain the 'in' keyword.
+            //Answer:
+            //Contravariance allows a less derived type to be used where a more derived type is expected in generic interfaces or delegates.
+
+            //It is the opposite of covariance.
+            //Contravariance is used for input parameters, not outputs.
+
+            //The in keyword:
+
+            //The in keyword in generics marks a type parameter as contravariant.
+            //It allows the type to be used as method input(parameter) but cannot be returned from methods.
+
+           
+            #endregion
+
 
         }
         #region Swap<T> method
