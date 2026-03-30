@@ -285,6 +285,29 @@ namespace AssignmentC_Advanced01
              */
             #endregion
 
+            #region Q14
+            //Q14: Write a SafeList<T> that returns default when the index is invalid.
+            //Answer:
+
+            //SafeList<int> numbers = new SafeList<int>();
+            //numbers.Add(10);
+            //numbers.Add(20);
+            //numbers.Add(30);
+
+            
+            //Console.WriteLine($"numbers[1] = {numbers[1]}");
+
+            //// Invalid index
+            //Console.WriteLine($"numbers[5] = {numbers[5]}");
+
+            //SafeList<string> names = new SafeList<string>();
+            //names.Add("Ahmed");
+            //names.Add("Sara");
+
+            //Console.WriteLine($"names[0] = {names[0]}");   
+            //Console.WriteLine($"names[5] = {names[5]}");   
+            #endregion
+
 
         }
         #region Swap<T> method
