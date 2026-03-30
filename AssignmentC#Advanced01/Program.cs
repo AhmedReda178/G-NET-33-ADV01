@@ -337,7 +337,30 @@ namespace AssignmentC_Advanced01
             //The in keyword in generics marks a type parameter as contravariant.
             //It allows the type to be used as method input(parameter) but cannot be returned from methods.
 
-           
+
+            #endregion
+            #region Q17
+            //Q17: What is the difference between covariance and contravariance?
+
+            //Answer:
+
+            /*
+             Covariance allows a more derived type to be assigned to a less derived type.
+
+                It is used when a generic type produces values (for example, return values).
+
+                The keyword for covariance is out.
+
+                Covariance is safe for output but cannot be used for input parameters.
+
+                Contravariance allows a less derived type to be assigned to a more derived type.
+
+                It is used when a generic type consumes values (for example, method parameters).
+
+                The keyword for contravariance is in.
+
+                Contravariance is safe for input but cannot be used as return/output type.
+             */
             #endregion
 
 
