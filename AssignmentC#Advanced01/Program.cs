@@ -101,6 +101,43 @@ namespace AssignmentC_Advanced01
             //Console.WriteLine(maxString); // Ziad
 
             #endregion
+
+            #region Q06
+            //Q6: What is a generic interface? Write IRepository<T>. 
+            //Answer:
+
+            //What is a generic interface?
+
+            // A generic interface is an interface that can work with any data type without creating a separate interface for each type.
+            // It allows flexibility so that the same interface can handle different types like int, string, or custom classes.
+
+            // used :
+            
+            //IRepository<Customer> repo = new CustomerRepository();
+
+           
+            //repo.Add(new Customer { Id = 1, Name = "Ahmed" });
+            //repo.Add(new Customer { Id = 2, Name = "Sara" });
+
+            
+            //foreach (var customer in repo.GetAll())
+            //{
+            //    Console.WriteLine($"Id: {customer.Id}, Name: {customer.Name}");
+            //}
+
+            
+            //var singleCustomer = repo.GetById(1);
+            //Console.WriteLine($"Single Customer: Id={singleCustomer.Id}, Name={singleCustomer.Name}");
+
+            
+            //repo.Remove(singleCustomer);
+
+            //Console.WriteLine("After removal:");
+            //foreach (var customer in repo.GetAll())
+            //{
+            //    Console.WriteLine($"Id: {customer.Id}, Name: {customer.Name}");
+            //}
+            #endregion
         }
         #region Swap<T> method
         //public static void Swap<T>(ref T a, ref T b)
