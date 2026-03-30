@@ -86,6 +86,21 @@ namespace AssignmentC_Advanced01
             //Console.WriteLine(x); // 10
             //Console.WriteLine(y); // 5
             #endregion
+
+            #region Q05
+            //Q5: Write a generic method FindMax<T> that finds maximum value.
+
+            //The type T must implement IComparable<T> so we can compare values.
+
+            //use example:
+            //
+            //int maxInt = Utility.FindMax(10, 20);
+            //Console.WriteLine(maxInt); // 20
+
+            //string maxString = Utility.FindMax("Ali", "Ziad");
+            //Console.WriteLine(maxString); // Ziad
+
+            #endregion
         }
         #region Swap<T> method
         //public static void Swap<T>(ref T a, ref T b)
