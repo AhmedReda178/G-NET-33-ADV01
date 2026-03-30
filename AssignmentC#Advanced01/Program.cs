@@ -294,7 +294,7 @@ namespace AssignmentC_Advanced01
             //numbers.Add(20);
             //numbers.Add(30);
 
-            
+
             //Console.WriteLine($"numbers[1] = {numbers[1]}");
 
             //// Invalid index
@@ -306,6 +306,22 @@ namespace AssignmentC_Advanced01
 
             //Console.WriteLine($"names[0] = {names[0]}");   
             //Console.WriteLine($"names[5] = {names[5]}");   
+            #endregion
+
+            #region Q15
+            //Q15: What is covariance? Explain the 'out' keyword.
+
+            //answer:
+            /*
+             Covariance (in Generics):
+
+                Covariance allows a more derived type to be used where a less derived type is expected.
+
+                It preserves assignment compatibility for generic interfaces and delegates.
+
+                In C#, covariance is only allowed for generic type parameters used for output (return values), 
+                not for inputs (method parameters).
+           */
             #endregion
 
 
