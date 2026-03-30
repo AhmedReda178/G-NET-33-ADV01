@@ -198,15 +198,32 @@ namespace AssignmentC_Advanced01
             //In short: "new()" = type must have a parameterless constructor.
 
             //used:
-            
+
             //Factory<Customer> customerFactory = new Factory<Customer>();
             //Customer newCustomer = customerFactory.CreateInstance();
 
-            
+
             //newCustomer.Id = 1;
             //newCustomer.Name = "Ahmed";
 
             //Console.WriteLine($"Customer: Id={newCustomer.Id}, Name={newCustomer.Name}");
+            #endregion
+
+            #region Q10
+            //Q10:  What is the interface constraint? Write an example.
+
+            //Answer:
+
+            //The interface constraint in C# is used in generics to specify that the type parameter must implement a specific interface.
+            //This allows the generic class or method to use the methods and properties of that interface safely.
+
+            //used : 
+
+            //Customer customer = new Customer { Id = 1, Name = "Ahmed" };
+            //Printer<Customer> printer = new Printer<Customer>();
+
+            //printer.PrintItem(customer); 
+
             #endregion
         }
         #region Swap<T> method
