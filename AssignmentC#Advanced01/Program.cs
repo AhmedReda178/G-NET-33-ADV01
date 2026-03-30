@@ -245,6 +245,31 @@ namespace AssignmentC_Advanced01
             //    Console.WriteLine($"Id: {customer.Id}, Name: {customer.Name}");
             //}
             #endregion
+
+            #region Q12
+            //Q12: How do you apply multiple constraints? Write an example. 
+            //Answer:
+
+            //In C#, you can apply multiple constraints to a generic type parameter by separating them with commas.
+
+            /*
+             You can combine:
+
+                class or struct
+                a specific base class
+                interfaces
+                new() (parameterless constructor)
+             */
+
+            //used:
+            //Payroll<Employee> payroll = new Payroll<Employee>();
+
+            //Employee emp = payroll.CreateEmployee();
+            //emp.Name = "Ahmed";
+            //emp.Id = 101;
+
+            //payroll.ProcessPayment(emp); 
+            #endregion
         }
         #region Swap<T> method
         //public static void Swap<T>(ref T a, ref T b)
