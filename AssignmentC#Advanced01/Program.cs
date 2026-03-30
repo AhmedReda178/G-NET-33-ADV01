@@ -48,6 +48,20 @@ namespace AssignmentC_Advanced01
             //c2.Add("Ahmed Reda");
             //Console.WriteLine(c2.Get());
             #endregion
+
+            #region Q03
+            //Q3:What are multiple type parameters? Write Pair<TKey, TValue>.
+
+            //Answer:
+
+            //What are multiple type parameters?
+
+            //Multiple type parameters mean that a generic class (or method) can use more than one data type.
+
+            //Instead of using one type like <T>, we can use two or more types like <TKey, TValue>.
+
+            //This allows the class to store and work with different types of data at the same time.
+            #endregion
         }
     }
 }
