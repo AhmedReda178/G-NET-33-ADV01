@@ -62,6 +62,38 @@ namespace AssignmentC_Advanced01
 
             //This allows the class to store and work with different types of data at the same time.
             #endregion
+
+            #region Q04
+            //Q4: What is a generic method? Write Swap<T> method.
+            //Answer:
+
+            //What is a generic method?
+
+            //A generic method is a method that works with different data types using a type parameter.
+
+            //Instead of writing multiple methods for different types (int, string ,...),
+            //we write one method using a placeholder type like <T>.
+
+            //This makes the code reusable, flexible, and type-safe.
+
+            //Example of Swap<T> method:
+
+            //int x = 5;
+            //int y = 10;
+
+            //Swap<int>(ref x, ref y);
+
+            //Console.WriteLine(x); // 10
+            //Console.WriteLine(y); // 5
+            #endregion
         }
+        #region Swap<T> method
+        //public static void Swap<T>(ref T a, ref T b)
+        //{
+        //    T temp = a;
+        //    a = b;
+        //    b = temp;
+        //} 
+        #endregion
     }
 }
