@@ -270,6 +270,22 @@ namespace AssignmentC_Advanced01
 
             //payroll.ProcessPayment(emp); 
             #endregion
+
+            #region Q13
+            //Q13: What does the 'default' keyword do in generics?
+            //answer:
+
+            //In C#, the default keyword in generics is used to return the default value of a type parameter T.
+
+            /*
+             What “default value” means depends on the type:
+
+                For value types (like int, double, bool): it returns 0, 0.0, false,... .
+                For reference types (like classes, string, interfaces): it returns null.
+             */
+            #endregion
+
+
         }
         #region Swap<T> method
         //public static void Swap<T>(ref T a, ref T b)
