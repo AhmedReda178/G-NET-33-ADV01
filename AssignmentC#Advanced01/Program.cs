@@ -362,6 +362,26 @@ namespace AssignmentC_Advanced01
                 Contravariance is safe for input but cannot be used as return/output type.
              */
             #endregion
+            #region Q18
+
+            //Q18: How do static members work in generic types ?
+
+            //Answer:
+
+            /*
+             In C#, static members in generic types are specific to each closed type.
+             This means that if you have a generic class GenericClass<T> with a static member, each type T gets its own copy of that static member.
+             Static members are not shared across different type parameters, even if the class is the same.
+
+             Example in words:
+
+             If you have GenericClass<int>.Count and GenericClass<string>.Count,
+             Count for int is independent of Count for string.
+             Each type parameter maintains its own static data.
+             */
+
+
+            #endregion
 
 
         }
