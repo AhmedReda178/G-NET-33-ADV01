@@ -112,24 +112,24 @@ namespace AssignmentC_Advanced01
             // It allows flexibility so that the same interface can handle different types like int, string, or custom classes.
 
             // used :
-            
+
             //IRepository<Customer> repo = new CustomerRepository();
 
-           
+
             //repo.Add(new Customer { Id = 1, Name = "Ahmed" });
             //repo.Add(new Customer { Id = 2, Name = "Sara" });
 
-            
+
             //foreach (var customer in repo.GetAll())
             //{
             //    Console.WriteLine($"Id: {customer.Id}, Name: {customer.Name}");
             //}
 
-            
+
             //var singleCustomer = repo.GetById(1);
             //Console.WriteLine($"Single Customer: Id={singleCustomer.Id}, Name={singleCustomer.Name}");
 
-            
+
             //repo.Remove(singleCustomer);
 
             //Console.WriteLine("After removal:");
@@ -137,6 +137,31 @@ namespace AssignmentC_Advanced01
             //{
             //    Console.WriteLine($"Id: {customer.Id}, Name: {customer.Name}");
             //}
+            #endregion
+
+            #region Q07
+            //Q7: What is the 'struct' constraint? Write an example.
+
+            // Answer:
+
+            //The struct constraint in C# is used in generics to specify that the type parameter must be a value type (like int, double, bool, or any user-defined struct).
+
+            //This ensures that the generic type cannot be a reference type (like a class or string).
+
+            //In short: "struct" = value type only.
+
+            //use example:
+
+           
+            //Calculator<int> intCalc = new Calculator<int>();
+            //Console.WriteLine("Sum of 5 + 10 = " + intCalc.Add(5, 10));
+
+           
+            //Calculator<double> doubleCalc = new Calculator<double>();
+            //Console.WriteLine("Sum of 2.5 + 3.5 = " + doubleCalc.Add(2.5, 3.5));
+
+            
+             
             #endregion
         }
         #region Swap<T> method
